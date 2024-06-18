@@ -77,7 +77,7 @@ export default function Transaction({ transactions, onAddTransaction, onDeleteTr
                     {transactions.map((transaction) => (
                       <tr key={transaction.id}>
                         <td>{transaction.title}</td>
-                        <td>Rs {transaction.amount.toFixed(2)}</td>
+                        <td>Rs {transaction.amount.toFixed(0)}</td>
                         <td>{transaction.type}</td>
                         <td>
                           <Button variant="danger" onClick={() => onDeleteTransaction(transaction.id)}>

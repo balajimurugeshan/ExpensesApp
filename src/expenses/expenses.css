@@ -142,6 +142,8 @@ img {
     
     .transactions-table-container {
       margin-top: 20px;
+      max-height:330px;
+      overflow-y: auto;
     }
     
     .table-header {

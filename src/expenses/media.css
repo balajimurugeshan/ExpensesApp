@@ -43,6 +43,16 @@
 }
 @media (max-width: 603px)
 {
+    .details-container {
+        display: block;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        width: 300%; 
+        margin-left: -5%; 
+        margin-top: 25%; 
+    }
+    
     .transaction-details {
         width: 100%;
         margin-left: 0;
